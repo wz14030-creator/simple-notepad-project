@@ -4,7 +4,6 @@ project(practice_7 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 关键修改：添加 PrintSupport 组件
 find_package(Qt6 REQUIRED COMPONENTS Widgets PrintSupport)
 qt_standard_project_setup()
 
